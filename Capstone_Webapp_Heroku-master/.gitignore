@@ -1,0 +1,5 @@
+node_modules
+# client
+
+#client is commented out so that it is pushed to GitHub
+#un-comment for pushing to Heroku

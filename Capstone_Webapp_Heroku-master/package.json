@@ -1,0 +1,35 @@
+{
+  "name": "capstone_project",
+  "version": "1.0.0",
+  "description": "CIS4375 final project.",
+  "main": "app.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run serve --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Payton Donnelly & Sonali Sanghvi",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.17",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "vue-axios": "^2.1.5"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0",
+    "vue-browser-geolocation": "^1.8.0",
+    "vue2-google-maps": "^0.10.7"
+  }
+}
